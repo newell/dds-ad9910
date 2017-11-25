@@ -1,0 +1,28 @@
+# $Id$
+# PcbBOM Version 1.0
+# Date: Wed 14 Jul 2010 08:54:15 PM GMT UTC
+# Author: jensen
+# Title: (unknown) - PCB BOM
+# Quantity, Description, Value, RefDes
+# --------------------------------------------
+4,"0603.fp","3.3_pF",C32 C39 C33 C38 
+25,"0603.fp","0.1_uF",C23 C19 C20 C12 C14 C24 C31 C13 C16 C15 C42 C29 C26 C27 C9 C4 C7 C6 C10 C8 C17 C2 C22 C21 C5 
+4,"0603.fp","unknown",FB4 FB2 FB1 FB3 
+2,"0603.fp","*_pF",C41 C40 
+3,"0603.fp","0",R6 R2 R1 
+1,"0402.fp","30_nH",L2 
+2,"0603.fp","49.9",R4 R5 
+2,"0603.fp","24_nH",L1 L3 
+4,"0603.fp","6.8_pF",C35 C37 C34 C36 
+6,"0805.fp","10_uF",C30 C11 C18 C3 C25 C28 
+1,"0603.fp","1_M",R7 
+2,"SOT223.fp","unknown",U2 U3 
+2,"0603.fp","39_pF",C43 C44 
+1,"MINICIRCUITS_CD542.fp","ADT1-1WT",T1 
+1,"sma_jack.fp","unknown",CONN2 
+1,"DC_Jack.fp","unknown",CONN1 
+1,"TQFP100_14.fp","unknown",U1 
+2,"HEADER26_2.fp","unknown",J2 J1 
+1,"crystal.fp","25_MHz",X1 
+1,"0603.fp","10_k",R3 
+1,"RCY100P.fp","47_uF",C1 

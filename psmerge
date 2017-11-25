@@ -1,0 +1,25 @@
+#!/usr/bin/perl
+# -*- perl -*-
+
+$need_prolog = 1;
+
+$pageno = 0;
+
+for $ps (@ARGV) {
+    open(PS, $ps);
+    $print = $need_prolog ? 1 : 0;
+    while (<PS>) {
+	if (/%%Page: \d/) {
+	    $pageno++;
+	    $_ = "%%Page: $pageno\n";
+	    $print = 1;
+	}
+	$print = 0 if /^%%End$/;
+
+	print if $print;
+    }
+    close PS;
+    $need_prolog = 0;
+}
+
+print "%%End\n";
