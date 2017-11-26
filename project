@@ -1,6 +1,4 @@
 schematics dds-ad9910.sch
-elements-dir /home/jensen/dev/circuits/footprints
+elements-dir /home/newell/code/footprints
 output-name dds-ad9910
 skip-m4
-
-
